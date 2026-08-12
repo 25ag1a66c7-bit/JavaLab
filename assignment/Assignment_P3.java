@@ -1,4 +1,4 @@
- import java.util.Arrays;
+import java.util.Arrays;
 public class Assignment_P3 {
     public static boolean isPalindrome(String str) {
         String cleaned = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
