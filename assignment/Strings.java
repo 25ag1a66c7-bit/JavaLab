@@ -14,12 +14,12 @@ public class Strings {
         char firstChar = sentence.charAt(0);
         int asciiVal = (int) firstChar;
         String asciiString = String.valueOf(asciiVal);
-        System.out.println("Input                            : \"" + sentence + "\"");
-        System.out.println("Word Count                       : " + wordCount);
-        System.out.println("First Word                       : " + firstWord);
-        System.out.println("Last Word                        : " + lastWord);
-        System.out.println("First '" + targetChar + "' index                     : " + firstCharIndex);
-        System.out.println("Last '" + targetChar + "' index                      : " + lastCharIndex);
+        System.out.println("Input      : \"" + sentence + "\"");
+        System.out.println("Word Count : " + wordCount);
+        System.out.println("First Wor  : " + firstWord);
+        System.out.println("Last Word  : " + lastWord);
+        System.out.println("First '" + targetChar + "' index : " + firstCharIndex);
+        System.out.println("Last '" + targetChar + "' index  : " + lastCharIndex);
         System.out.println("Comparison (first vs last word)  : " + comparison);
         System.out.println("First Char ASCII (via valueOf)   : " + asciiString + "\n");
     }
